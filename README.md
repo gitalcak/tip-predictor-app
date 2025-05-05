@@ -31,29 +31,18 @@ To help taxi drivers identify potentially generous tippers before or during the 
    git clone https://github.com/gitalcak/tip-predictor-app.git
    cd tip-predictor-app
 
-## Install required packages
+### Install required packages
 pip install -r requirements.txt
 
-## Run the app
+### Run the app
 streamlit run app.py
 
-Notes
-The dataset was filtered to include only credit card payments for consistency.
+### Notes
+- The dataset was filtered to include only credit card payments for consistency.
+- This project is for educational and demonstration purposes only. It does not make real-time predictions and is not intended for deployment in commercial settings.
+- Ethical considerations were acknowledged but simplified for the scope of this prototype.
+- This dataset is also introduced in Google's Advanced Data Analytics Certificate Program.
 
-This project is for educational and demonstration purposes only. It does not make real-time predictions and is not intended for deployment in commercial settings.
-
-Ethical considerations were acknowledged but simplified for the scope of this prototype.
-
-This dataset is also introduced in Google's Advanced Data Analytics Certificate Program.
-
-📂 File Structure
-tip-predictor-app/
-│
-├── app.py                      # Main Streamlit app
-├── nextgentipper_model.pkl     # Trained Random Forest model
-├── requirements.txt            # Dependencies
-├── README.md                   # Project overview
-└── data/                       # Folder for original dataset 
 
 Created by Alper Kokcu
 
