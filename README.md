@@ -24,19 +24,6 @@ To help taxi drivers identify potentially generous tippers before or during the 
 - Predicts whether the customer is likely to leave a generous tip
 - Designed to be fast, minimal, and easy to use
 
-## 🚀 How to Run Locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/gitalcak/tip-predictor-app.git
-   cd tip-predictor-app
-
-### Install required packages
-pip install -r requirements.txt
-
-### Run the app
-streamlit run app.py
-
 ### Notes
 - The dataset was filtered to include only credit card payments for consistency.
 - This project is for educational and demonstration purposes only. It does not make real-time predictions and is not intended for deployment in commercial settings.
